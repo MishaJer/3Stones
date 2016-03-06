@@ -15,7 +15,7 @@ public class ThreeStones {
         boolean turn = randomGenerator.nextBoolean(); //false = P1's turn  //true = P2's turn
         do {
             a = getPickUpInfo("1", P1StoneNum);
-            b = getPickUpInfo("2", P1StoneNum);
+            b = getPickUpInfo("2", P2StoneNum);
             StoneSum = a + b;
             int[] A = new int[2];
             A = getGuessingInfo(turn);
